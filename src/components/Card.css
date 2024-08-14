@@ -1,0 +1,80 @@
+/* Card Styles */
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-width: 250px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styles */
+  .toggle-btn,
+  .read-more-btn,
+  .close-modal-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .toggle-btn:hover,
+  .read-more-btn:hover,
+  .close-modal-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .read-more-btn {
+    margin-left: 10px;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .modal p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .close-modal-btn {
+    margin-top: 15px;
+  }
+  
